@@ -1,0 +1,34 @@
+html, body{
+	background:url(../img/El-Capitan.jpg);
+	color:DimGray;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* #1 picture is now cropped in the middle, the top border looks like a portion of the image
+#2 can img file name have spacing or is it forbidden? Like it won't work with it?
+#3 need to play with the gap between the 2 line of text TL and get the loading icon with its msg lowered
+*/
+
+
+h1{
+    color: rgba(255, 136, 0, 0.959);
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+    line-height: 23px;
+    font-size: 25px;
+    }
+
+h2{ font-size: 12px;}
+
+main{ 
+        text-align:center;}
+
+  
+.msg{
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+    line-height: 23px;
+    font-size: 16px;}
